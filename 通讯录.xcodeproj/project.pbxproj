@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		749372EF1C40F22E00045177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 749372EE1C40F22E00045177 /* main.m */; };
+		749372F71C40F34B00045177 /* CYGMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 749372F61C40F34B00045177 /* CYGMenu.m */; };
+		749372FA1C411AC400045177 /* CYGTelbook.m in Sources */ = {isa = PBXBuildFile; fileRef = 749372F91C411AC400045177 /* CYGTelbook.m */; };
+		749372FD1C411EB500045177 /* CYGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 749372FC1C411EB500045177 /* CYGPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		749372EB1C40F22E00045177 /* 通讯录 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "通讯录"; sourceTree = BUILT_PRODUCTS_DIR; };
 		749372EE1C40F22E00045177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		749372F51C40F34B00045177 /* CYGMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGMenu.h; sourceTree = "<group>"; };
+		749372F61C40F34B00045177 /* CYGMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGMenu.m; sourceTree = "<group>"; };
+		749372F81C411AC400045177 /* CYGTelbook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGTelbook.h; sourceTree = "<group>"; };
+		749372F91C411AC400045177 /* CYGTelbook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGTelbook.m; sourceTree = "<group>"; };
+		749372FB1C411EB500045177 /* CYGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGPerson.h; sourceTree = "<group>"; };
+		749372FC1C411EB500045177 /* CYGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				749372EE1C40F22E00045177 /* main.m */,
+				749372F51C40F34B00045177 /* CYGMenu.h */,
+				749372F61C40F34B00045177 /* CYGMenu.m */,
+				749372F81C411AC400045177 /* CYGTelbook.h */,
+				749372F91C411AC400045177 /* CYGTelbook.m */,
+				749372FB1C411EB500045177 /* CYGPerson.h */,
+				749372FC1C411EB500045177 /* CYGPerson.m */,
 			);
 			path = "通讯录";
 			sourceTree = "<group>";
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749372FD1C411EB500045177 /* CYGPerson.m in Sources */,
+				749372FA1C411AC400045177 /* CYGTelbook.m in Sources */,
+				749372F71C40F34B00045177 /* CYGMenu.m in Sources */,
 				749372EF1C40F22E00045177 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
